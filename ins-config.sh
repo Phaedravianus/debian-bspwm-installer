@@ -21,7 +21,8 @@ sudo mkdir ~/.config/polybar
 sudo mv ~/debian-installer/config/polybar/config.ini ~/.config/polybar
 
 #background
-sudo mv ~/debian-installer/config/Backgrounds ~/.config/Backgrounds 
+sudo mkdir ~/.config/Backgrounds
+sudo mv ~/debian-installer/config/Backgrounds/Dunmer_Door.jpg ~/.config/Backgrounds 
 
 #bdprochot
 sudo mv ~/debian-installer/bdprochot.sh ~/
