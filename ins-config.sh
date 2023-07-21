@@ -2,8 +2,8 @@
 
 #sxhkdrc
 sudo mv ~/.config/sxhkd/sxhkdrc ~/.config/sxhkd/sxkdrc.bak
-sudo chmod +x ~/debian-installers/sxhkd/sxhkdrc
 sudo mv ~/debian-installers/config/sxhkd/sxhkdrc ~/.config/sxhkd
+sudo chmod +x ~/.config/sxhkd/sxhkdrc
 
 #rofi
 sudo mv ~/debian-installers/config/rofi ~/.config/rofi
@@ -26,6 +26,7 @@ sudo mv ~/debian-installers/config/Backgrounds/Dunmer_Door.jpg ~/.config/Backgro
 
 #bdprochot
 sudo mv ~/debian-installers/bdprochot.sh ~/
+sud chmod +x ~/bdprochot.sh
 
 #Bashrc append PS1
 sudo cp .bashrc .bashrc.bak
@@ -41,9 +42,9 @@ sudo mkdir ~/.config/picom
 sudo mv ~/debian-installers/config/picom/picom.conf ~/.config/picom/
 
 #Bspwm 
-sudo chmod +x ~/debian-installer/bspwm/bspwmrc
 sudo mv ~/.config/bspwm/bspwmrc ~./config/bspwm/bspwmrc.bak
 sudo mv ~/debian-installers/config/bspwm/bspwmrc ~/.config/bspwm/
+sudo chmod +x ~/.config/bspwm/bspwmrc
 
 #LightDM
 sudo mv /etc/lightdm/lightdm.conf /etc/lightdm/lightdm.conf.bak
