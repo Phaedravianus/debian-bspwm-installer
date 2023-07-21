@@ -27,7 +27,7 @@ sudo mv ~/debian-installer/bdprochot.sh ~/
 
 #Bashrc append PS1
 sudo cp .bashrc .bashrc.bak
-sudo echo 'alias apt='sudo apt'' >> .bashrc
+sudo echo 'alias apt="sudo apt"' >> .bashrc
 sudo echo '#PS1 Customization' >> .bashrc
 sudo echo 'PS1="[\e[m\]\[\e[36m\]\u\[\e[m\]\[\e[34m\]@\\[\e[31m\]\h\[\e[m\]] \W \$ "' >> .bashrc
 
