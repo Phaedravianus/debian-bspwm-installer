@@ -3,29 +3,29 @@
 #sxhkdrc
 sudo mv ~/.config/sxhkd/sxhkdrc ~/.config/sxhkd/sxkdrc.bak
 sudo chmod +x sxhkdrc
-sudo mv ~/debian-installer/config/sxhkdrc ~/.config/sxhkd
+sudo mv ~/debian-installers/config/sxhkdrc ~/.config/sxhkd
 
 #rofi
-sudo mv ~/debian-installer/config/rofi ~/.config/rofi
+sudo mv ~/debian-installers/config/rofi ~/.config/rofi
 
 #kitty
 sudo mkdir ~/.config/kitty
-sudo mv ~/debian-installer/config/kitty/kitty.conf ~/.config/kitty
+sudo mv ~/debian-installers/config/kitty/kitty.conf ~/.config/kitty
 
 #dunst
 sudo mkdir ~/.config/dunst
-sudo mv ~/debian-installer/config/dunst/dunstrc ~/.config/dunst
+sudo mv ~/debian-installers/config/dunst/dunstrc ~/.config/dunst
 
 #polybar
 sudo mkdir ~/.config/polybar
-sudo mv ~/debian-installer/config/polybar/config.ini ~/.config/polybar
+sudo mv ~/debian-installers/config/polybar/config.ini ~/.config/polybar
 
 #background
 sudo mkdir ~/.config/Backgrounds
-sudo mv ~/debian-installer/config/Backgrounds/Dunmer_Door.jpg ~/.config/Backgrounds 
+sudo mv ~/debian-installers/config/Backgrounds/Dunmer_Door.jpg ~/.config/Backgrounds 
 
 #bdprochot
-sudo mv ~/debian-installer/bdprochot.sh ~/
+sudo mv ~/debian-installers/bdprochot.sh ~/
 
 #Bashrc append PS1
 sudo cp .bashrc .bashrc.bak
@@ -38,21 +38,21 @@ sudo apt -y install breeze gnome-themes-extra gnome-themes-extra-data
 
 #Picom
 sudo mkdir ~/.config/picom
-sudo mv ~/debian-installer/config/picom/picom.conf ~/.config/picom/
+sudo mv ~/debian-installers/config/picom/picom.conf ~/.config/picom/
 
 #Bspwm 
 sudo mv ~/.config/bspwm/bspwmrc ~./config/bspwm/bspwmrc.bak
-sudo mv ~/debian-installer/config/bspwm/bspwmrc ~/.config/bspwm/
+sudo mv ~/debian-installers/config/bspwm/bspwmrc ~/.config/bspwm/
 
 #LightDM
 sudo mv /etc/lightdm/lightdm.conf /etc/lightdm/lightdm.conf.bak
-sudo mv ~/debian-installer/lightdm.conf /etc/lightdm/
-sudo mv ~/debian-installer/slick-greeter.conf /etc/lightdm/
+sudo mv ~/debian-installers/lightdm.conf /etc/lightdm/
+sudo mv ~/debian-installers/slick-greeter.conf /etc/lightdm/
 
 #Newsboat
 #sudo mkdir ~/.newsboat
-#sudo mv ~/debian-installer/.newsboat/config ~/.newsboat/
-#sudo mv ~/debian installer/.newsboat/url ~/.newsboat/
+#sudo mv ~/debian-installers/.newsboat/config ~/.newsboat/
+#sudo mv ~/debian installers/.newsboat/url ~/.newsboat/
 
 ################################################################
 echo "Configs are installed, You should Reboot Now!"
