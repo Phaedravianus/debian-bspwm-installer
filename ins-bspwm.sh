@@ -1,14 +1,9 @@
 #!/bin/bash
 # Default packages are for the configuration and corresponding .config folders
+
 # Installation packages after Base Debian with no GUİ
-
-
-# xorg display server installation
-sudo apt install -y xorg xbacklight xbindkeys xvkbd xinput
-
-# Microcode for amd/intel
-sudo apt install -y amd-microcode
-sudo apt install -y intel-microcode
+# Packages needed for bspwm installation
+sudo apt install -y bspwm dmenu sxkhd picom numlocks rofi dunst libnotify-bin unzip geany lxappearance
 
 # Network File Tools/System events
  sudo apt install -y dialog dosfstools avahi-daemon acpi acpid gvfs-backend xfce4-power-manager
@@ -44,9 +39,6 @@ sudo apt install -y cups
 sudo apt install -y bluez blueman simple-scan
 
 sudo systemctl enable bluetooth
-
-# Packages needed for bspwm installation
-sudo apt install -y bspwm dmenu sxkhd picom numlocks rofi dunst libnotify-bin unzip geany lxappearance tint2
 
 #Install Grub
 sudo apt -y install grub
