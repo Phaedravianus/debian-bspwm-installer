@@ -16,7 +16,7 @@ sudo dpgk -i discord-0.0.28.deb
 
 #İnstalling Office(Wps,Only)
 aria2c https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/11698/wps-office_11.1.0.11698.XA_amd64.deb &&
-sudo dpgl -i wps-office_11.1.0.11698.XA_amd64.deb
+sudo dpgk -i wps-office_11.1.0.11698.XA_amd64.deb
 
 #İnstalling Krita/Inkscape/Gimp
 #sudo apt install -y krita
