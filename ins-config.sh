@@ -2,13 +2,14 @@
 
 #sxhkdrc
 sudo mv ~/.config/sxhkd/sxhkdrc ~/.config/sxhkd/sxkdrc.bak
-
+sudo chmod +x sxhkdrc
 sudo mv ~/debian-installer/config/sxhkdrc ~/.config/sxhkd/
 
 #rofi
 sudo mv ~/debian-installer/config/rofi ~/.config/rofi
 
 #kitty
+sudo mkdir ~/.config/kitty
 sudo mv ~/debian-installer/config/kitty/kitty.conf ~./config/kitty
 
 #dunst
