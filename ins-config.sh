@@ -52,9 +52,9 @@ sudo mv ~/debian-installers/lightdm.conf /etc/lightdm/
 sudo mv ~/debian-installers/slick-greeter.conf /etc/lightdm/
 
 #Newsboat
-#sudo mkdir ~/.newsboat
-#sudo mv ~/debian-installers/.newsboat/config ~/.newsboat/
-#sudo mv ~/debian installers/.newsboat/url ~/.newsboat/
+sudo mkdir ~/.newsboat
+sudo mv ~/debian-installers/config/newsboat/config ~/.newsboat/
+sudo mv ~/debian installers/config/newsboat/url ~/.newsboat/
 
 ################################################################
 echo "Configs are installed, You should Reboot Now!"
