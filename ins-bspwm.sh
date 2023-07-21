@@ -4,10 +4,11 @@
 # Installation packages after Base Debian with no GUİ
 # Packages needed for bspwm installation
 sudo apt install -y bspwm 
-sudo apt -y picom 
-sudo apt -y rofi dunst libnotify-bin 
-sudo apt -y unzip geany lxappearance
-sudo apt -y install polybar
+sudo apt install -y picom 
+sudo apt install -y rofi 
+sudo apt install -y dunst libnotify-bin 
+sudo apt install -y unzip geany lxappearance
+sudo apt install -y install polybar
 # Network File Tools/System events
  sudo apt install -y dialog dosfstools avahi-daemon acpi acpid gvfs-backend xfce4-power-manager
 
