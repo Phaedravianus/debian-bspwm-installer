@@ -3,26 +3,26 @@
 #sxhkdrc
 sudo mv ~/.config/sxhkd/sxhkdrc ~/.config/sxhkd/sxkdrc.bak
 
-sudo mv ~/debian-installer/.config/sxhkdrc ~/.config/sxhkd/
+sudo mv ~/debian-installer/config/sxhkdrc ~/.config/sxhkd/
 
 #rofi
 sudo mkdir ~/.config/rofi 
-sudo mv ~/debian-installer/.config/rofi/** ~/.config/rofi
+sudo mv ~/debian-installer/config/rofi/** ~/.config/rofi
 
 #kitty
-sudo mv ~/debian-installer/.config/kitty/** ~./config/kitty
+sudo mv ~/debian-installer/config/kitty/** ~./config/kitty
 
 #dunst
 sudo mkdir ~/.config/dunst
-sudo mv ~/debian-installer/.config/dunst/** ~/.config/dunst
+sudo mv ~/debian-installer/config/dunst/** ~/.config/dunst
 
 #polybar
 sudo mkdir ~/.config/polybar
-sudo mv ~/debian-installer/.config/polybar/** ~/.config/polybar
+sudo mv ~/debian-installer/config/polybar/** ~/.config/polybar
 
 #background
 sudo mkdir ~/.config/Backgrounds
-sudo mv ~/debian-installer/.config/Backgrounds/** ~/.config/Backgrounds 
+sudo mv ~/debian-installer/config/Backgrounds/** ~/.config/Backgrounds 
 
 #bdprochot
 sudo mv ~/debian-installer/bdprochot.sh ~/
@@ -38,11 +38,11 @@ sudo apt -y install breeze gnome-themes-extra gnome-themes-extra-data
 
 #Picom
 sudo mkdir ~/.config/picom
-sudo mv ~/debian-installer/.config/picom/picom.conf ~/.config/picom/
+sudo mv ~/debian-installer/config/picom/picom.conf ~/.config/picom/
 
 #Bspwm 
 sudo mv ~/.config/bspwm/bspwmrc ~./config/bspwm/bspwmrc.bak
-sudo mv ~/debian-installer/.config/bspwm/bspwmrc ~/.config/bspwm/
+sudo mv ~/debian-installer/config/bspwm/bspwmrc ~/.config/bspwm/
 
 #LightDM
 sudo mv /etc/lightdm/lightdm.conf /etc/lightdm/lightdm.conf.bak
