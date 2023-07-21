@@ -61,7 +61,6 @@ sudo systemctl enable lightdm
 
 ############################################################################
 # End of  Canscript For Default downloads
-sudo apt autoremove
 
 
 #echo "You Can Reboot now"
