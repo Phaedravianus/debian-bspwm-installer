@@ -8,7 +8,7 @@ sudo apt install -y picom
 sudo apt install -y rofi 
 sudo apt install -y dunst libnotify-bin 
 sudo apt install -y unzip geany lxappearance
-sudo apt install -y install polybar
+sudo apt install -y polybar
 # Network File Tools/System events
  sudo apt install -y dialog dosfstools avahi-daemon acpi acpid gvfs-backend xfce4-power-manager
 
