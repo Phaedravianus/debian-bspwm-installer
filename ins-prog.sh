@@ -10,7 +10,7 @@ sudo apt install -y ranger newsboat fzf neovim yt-dlp papirus-icon-theme ffmpeg 
 sudo apt install -y fonts-ubuntu fonts-firacode fonts-liberation2 ttf-mscorefonts-installer
 
 #Installing Discord
-apt install libatomic1 libc++1
+apt install -y libatomic1 libc++1
 aria2c https://discord.com/api/download?platform=linux&format=deb &&
 sudo dpgk -i discord-0.0.28.deb
 
