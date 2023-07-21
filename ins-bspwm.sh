@@ -73,7 +73,7 @@ sudo apt autoremove
 
 echo "You Can Technically Reboot But Choose To İnstall Programs"
 #Installing programs 
-sudo ./ins-prog.sh
+sudo ~/debian-installers/ins-prog.sh
 
 #####################################
 #Or You can choose to skip and just config
